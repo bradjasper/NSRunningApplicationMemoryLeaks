@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22FA7F61C3B8FAD00CDE2F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22FA7F51C3B8FAD00CDE2F2 /* AppDelegate.m */; };
+		A22FA7F91C3B8FAD00CDE2F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22FA7F81C3B8FAD00CDE2F2 /* main.m */; };
+		A22FA7FB1C3B8FAD00CDE2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22FA7FA1C3B8FAD00CDE2F2 /* Assets.xcassets */; };
+		A22FA7FE1C3B8FAD00CDE2F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22FA7FC1C3B8FAD00CDE2F2 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A22FA7F11C3B8FAD00CDE2F2 /* NSRunningApplicationMemoryLeaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSRunningApplicationMemoryLeaks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22FA7F41C3B8FAD00CDE2F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A22FA7F51C3B8FAD00CDE2F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A22FA7F81C3B8FAD00CDE2F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A22FA7FA1C3B8FAD00CDE2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22FA7FD1C3B8FAD00CDE2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A22FA7FF1C3B8FAD00CDE2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22FA7EE1C3B8FAD00CDE2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22FA7E81C3B8FAD00CDE2F2 = {
+			isa = PBXGroup;
+			children = (
+				A22FA7F31C3B8FAD00CDE2F2 /* NSRunningApplicationMemoryLeaks */,
+				A22FA7F21C3B8FAD00CDE2F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22FA7F21C3B8FAD00CDE2F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22FA7F11C3B8FAD00CDE2F2 /* NSRunningApplicationMemoryLeaks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22FA7F31C3B8FAD00CDE2F2 /* NSRunningApplicationMemoryLeaks */ = {
+			isa = PBXGroup;
+			children = (
+				A22FA7F41C3B8FAD00CDE2F2 /* AppDelegate.h */,
+				A22FA7F51C3B8FAD00CDE2F2 /* AppDelegate.m */,
+				A22FA7FA1C3B8FAD00CDE2F2 /* Assets.xcassets */,
+				A22FA7FC1C3B8FAD00CDE2F2 /* MainMenu.xib */,
+				A22FA7FF1C3B8FAD00CDE2F2 /* Info.plist */,
+				A22FA7F71C3B8FAD00CDE2F2 /* Supporting Files */,
+			);
+			path = NSRunningApplicationMemoryLeaks;
+			sourceTree = "<group>";
+		};
+		A22FA7F71C3B8FAD00CDE2F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A22FA7F81C3B8FAD00CDE2F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22FA7F01C3B8FAD00CDE2F2 /* NSRunningApplicationMemoryLeaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22FA8021C3B8FAD00CDE2F2 /* Build configuration list for PBXNativeTarget "NSRunningApplicationMemoryLeaks" */;
+			buildPhases = (
+				A22FA7ED1C3B8FAD00CDE2F2 /* Sources */,
+				A22FA7EE1C3B8FAD00CDE2F2 /* Frameworks */,
+				A22FA7EF1C3B8FAD00CDE2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSRunningApplicationMemoryLeaks;
+			productName = NSRunningApplicationMemoryLeaks;
+			productReference = A22FA7F11C3B8FAD00CDE2F2 /* NSRunningApplicationMemoryLeaks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22FA7E91C3B8FAD00CDE2F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brad Jasper";
+				TargetAttributes = {
+					A22FA7F01C3B8FAD00CDE2F2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A22FA7EC1C3B8FAD00CDE2F2 /* Build configuration list for PBXProject "NSRunningApplicationMemoryLeaks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A22FA7E81C3B8FAD00CDE2F2;
+			productRefGroup = A22FA7F21C3B8FAD00CDE2F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22FA7F01C3B8FAD00CDE2F2 /* NSRunningApplicationMemoryLeaks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22FA7EF1C3B8FAD00CDE2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22FA7FB1C3B8FAD00CDE2F2 /* Assets.xcassets in Resources */,
+				A22FA7FE1C3B8FAD00CDE2F2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22FA7ED1C3B8FAD00CDE2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22FA7F91C3B8FAD00CDE2F2 /* main.m in Sources */,
+				A22FA7F61C3B8FAD00CDE2F2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A22FA7FC1C3B8FAD00CDE2F2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22FA7FD1C3B8FAD00CDE2F2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22FA8001C3B8FAD00CDE2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A22FA8011C3B8FAD00CDE2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A22FA8031C3B8FAD00CDE2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSRunningApplicationMemoryLeaks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradjasper.NSRunningApplicationMemoryLeaks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A22FA8041C3B8FAD00CDE2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSRunningApplicationMemoryLeaks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradjasper.NSRunningApplicationMemoryLeaks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22FA7EC1C3B8FAD00CDE2F2 /* Build configuration list for PBXProject "NSRunningApplicationMemoryLeaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22FA8001C3B8FAD00CDE2F2 /* Debug */,
+				A22FA8011C3B8FAD00CDE2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22FA8021C3B8FAD00CDE2F2 /* Build configuration list for PBXNativeTarget "NSRunningApplicationMemoryLeaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22FA8031C3B8FAD00CDE2F2 /* Debug */,
+				A22FA8041C3B8FAD00CDE2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22FA7E91C3B8FAD00CDE2F2 /* Project object */;
+}
