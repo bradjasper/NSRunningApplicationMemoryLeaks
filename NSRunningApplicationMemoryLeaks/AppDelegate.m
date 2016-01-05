@@ -36,6 +36,8 @@ const static NSString *runningApplicationsContext = @"running applications obser
     } else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
+    
+    // CFRelease((CFTypeRef)context);
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

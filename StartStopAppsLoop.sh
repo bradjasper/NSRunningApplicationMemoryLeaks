@@ -43,6 +43,15 @@ close_apps() {
     done
 }
 
+trap ctrl_c INT
+
+function ctrl_c() {
+    echo "** Trapped CTRL-C"
+    close_apps
+    exit
+}
+
+
 echo "Starting open/close applications loop"
 for app in "${apps[@]}"
 do
