@@ -12,36 +12,32 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
-
+@property (strong) NSTimer *timer;
 @end
-
-const static NSString *runningApplicationsContext = @"running applications observation";
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    [[NSWorkspace sharedWorkspace] addObserver:self
-                                    forKeyPath:@"runningApplications"
-                                       options:NSKeyValueObservingOptionNew
-                                       context:&runningApplicationsContext];
+    // Setup a recurring check to NSRunningApplication
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(checkRunningApps) userInfo:nil repeats:YES];
 }
 
-- (void)observeValueForKeyPath:(NSString *)keyPath
-                      ofObject:(id)object
-                        change:(NSDictionary *)change
-                       context:(void *)context
-{
-    if (context == &runningApplicationsContext) {
-    } else {
-        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+- (void)checkRunningApps {
+    // this leaks
+    
+    NSArray *apps = [NSWorkspace sharedWorkspace].runningApplications;
+    for (NSRunningApplication *app in apps) {
+        NSLog(@"app bundle identifier = %@", app.bundleIdentifier);
     }
     
-    // CFRelease((CFTypeRef)context);
+    // Auto release pools don't seem to help
+    // Monitoring [NSWorkspace sharedWorkspace].runningApplications with KVO recreates the same problem...but NSTimer is a little simpler
+    // Individual instances of NSRunningApplication seem to leak as well, but looks like it could also be tied to runningApplications array
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+    [self.timer invalidate];
 }
 
 @end

@@ -1,6 +1,8 @@
 #!/bin/bash
 
 ## Script to open and close applications over and over again in a loop
+## This is useful when debugging KVO on [NSWorkspace sharedWorkspace].runningApplications
+## by launching and closing apps over and over again
 
 apps=(
     "/Applications/Font Book.app"
@@ -47,6 +49,7 @@ trap ctrl_c INT
 
 function ctrl_c() {
     echo "** Trapped CTRL-C"
+    echo "Cleaning up..."
     close_apps
     exit
 }
